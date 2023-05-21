@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="DataDiriApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataDiriApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+            <TextBlock Text="Nama:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtNama" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Umur:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtUmur" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Alamat:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtAlamat" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Hobi:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtHobi" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Band Favorit:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtBand" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Lagu Favorit:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtLagu" Margin="0,0,0,10"/>
+
+            <Button Content="Tampilkan" Click="Button_Click" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="txtOutput" Margin="0,20,0,0" TextAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
